@@ -1,0 +1,20 @@
+{
+    "name": "VeSync",
+    "version": "1.0.0",
+    "description": "This extension displays my active vesync outlets and allows me to turn each outlet on/off.",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "declarativeContent",
+        "http://127.0.0.1:5000/pythonvesync"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "vesync"
+    }
+}
