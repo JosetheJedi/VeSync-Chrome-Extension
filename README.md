@@ -32,7 +32,7 @@ Create a new file called *vesync_credentials.ini* inside of the *etekcity-vesync
 
 ```ini 
 [credentials]
-email = <replace with email> # The <> also needs to be replaced.
+email = <replace with email>
 password = <replace with password>
 ```
 
