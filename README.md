@@ -22,6 +22,16 @@ This project currently only supports three devices: Etekcity Smart LED Cool-to-W
 
 Nuff said. Go [download it](https://www.python.org/).
 
+### PyVesync
+
+Once you have python installed install the PyVesync module with:
+
+```bash
+pip install pyvesync
+```
+
+PyVesync is a library that manages VeSync compatible devices. To learn more about PyVesync, visit the projects [home page](https://github.com/markperdue/pyvesync).
+
 ### Create a VeSync account
 
 To be able to use the python API server, you will need to create an account using the [VeSync App](https://www.vesync.com/app) for IOS or Android. 
